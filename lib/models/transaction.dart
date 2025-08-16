@@ -1,3 +1,4 @@
+// KN: New class - Transaction
 class Transaction {
   final double amount;
   final String merchant;
