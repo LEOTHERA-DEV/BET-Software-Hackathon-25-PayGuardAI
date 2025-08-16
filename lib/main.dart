@@ -7,7 +7,6 @@ import 'package:payguard_ai_mvp/models/transaction.dart';
 // Kayleigh Ncube: KN
 // KgotsoFatso Dignity: KD
 // Thapelo Bapela: TP
-// Msizi Sibuta: MS
 
 void main() {
   runApp(const MyApp());
@@ -121,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    // MS: Refactoring
+    // TP: Refactoring
     final merchantEntryCtrl = TextEditingController();
     final amountEntryCtrl = TextEditingController();
     return Scaffold(
@@ -157,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
-            // MS: ListView and cleanup
+            // KD: ListView and cleanup
             Text("Confirmed Transactions", style: TextStyle(fontSize: 24),),
             Expanded(child: ListView.builder(
               itemCount: _transactionList.length,
